@@ -1,0 +1,11 @@
+# Auto generated vim files
+*~
+*.un
+*.swp
+
+# Bash history
+bash/.bash_history
+
+# Vim files not worth tracking
+vim/.vim/*/*
+vim/.viminfo

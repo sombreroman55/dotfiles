@@ -1,0 +1,5 @@
+# Streamlink Configuration
+
+# Player options
+player=mpv --cache 2048
+player-no-close

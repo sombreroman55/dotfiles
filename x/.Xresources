@@ -1,0 +1,71 @@
+! Xresources
+!
+!
+!
+!
+!
+!
+!
+
+!----------------------------------------------------
+! Xft Settings
+!----------------------------------------------------
+Xft.dpi:                96
+Xft.autohint:           0
+Xft.lcdfilter:          lcddefault
+Xft.hintstyle:          hintfull
+Xft.hinting:            1
+Xft.antialias:          1
+Xft.rgba:               rgb
+
+!----------------------------------------------------
+! URxvt Settings
+!----------------------------------------------------
+URxvt.internalBorder:   8
+URxvt.scrollBar:        false
+URxvt.letterSpace:      -1
+URxvt.font:             xft:Hack:size=10,\
+                        -*-unifont-*-*-*-*-*-*-*-*-*-*-*-*
+urxvt.saveLines:        1048576
+
+!----------------------------------------------------
+! URxvt Colors
+!----------------------------------------------------
+URxvt.depth:            32
+*background:            #1D2426
+*foreground:            #8FA388
+
+! Alternate foreground
+*foreground:            #AB9C71
+
+*cursorColor:           #BE5E1E
+
+! Blacks
+*color0:                #39474A
+*color8:                #4C5F63
+! Reds
+*color1:                #986345
+*color9:                #B07350
+! Greens
+*color2:                #788249
+*color10:               #869151
+! Yellows
+*color3:                #9B6A46
+*color11:               #AF6B42
+! Blues
+*color4:                #3E5951
+*color12:               #567A6E
+! Magentas
+*color5:                #B9924A
+*color13:               #D69D55
+! Cyans
+*color6:                #5d796a
+*color14:               #668574
+! Whites
+*color7:                #977D5E
+*color15:               #AB9C71
+
+! Clickable links
+URxvt.perl-ext-common:  default,matcher,keyboard-select
+URxvt.url-launcher:     /usr/bin/chromium
+URxvt.matcher.button:   1
