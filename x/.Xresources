@@ -24,8 +24,7 @@ Xft.rgba:               rgb
 URxvt.internalBorder:   8
 URxvt.scrollBar:        false
 URxvt.letterSpace:      -1
-URxvt.font:             xft:Hack:size=10,\
-                        -*-unifont-*-*-*-*-*-*-*-*-*-*-*-*
+URxvt.font:             xft:Hack:size=10
 urxvt.saveLines:        1048576
 
 !----------------------------------------------------

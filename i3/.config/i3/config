@@ -164,5 +164,5 @@ exec_always --no-startup-id feh --bg-scale ~/wallpapers/Other/1449445617641.png
 # Gap settings
 # We must remove title bars for i3 gaps
 for_window [class="^.*"] border pixel 0
-gaps inner 15
-gaps outer 3
+gaps inner 10
+gaps outer 2
