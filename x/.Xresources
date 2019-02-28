@@ -21,16 +21,17 @@ Xft.rgba:               rgb
 !----------------------------------------------------
 ! URxvt Settings
 !----------------------------------------------------
-URxvt.internalBorder:   8
+URxvt.internalBorder:   0
 URxvt.scrollBar:        false
 URxvt.letterSpace:      -1
-URxvt.font:             xft:Hack:size=10
+URxvt.font:             xft:Iosevka\ Term:size=11
 urxvt.saveLines:        1048576
 
 !----------------------------------------------------
 ! URxvt Colors
 !----------------------------------------------------
 URxvt.depth:            32
+URxvt*background:       rgba:0000/0000/0200/8800
 *background:            #1D2426
 *foreground:            #8FA388
 
