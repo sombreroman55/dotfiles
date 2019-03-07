@@ -7,5 +7,6 @@
 bash/.bash_history
 
 # Vim files not worth tracking
+vim/.vim
 vim/.vim/*/*
 vim/.viminfo

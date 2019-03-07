@@ -24,46 +24,13 @@ Xft.rgba:               rgb
 URxvt.internalBorder:   0
 URxvt.scrollBar:        false
 URxvt.letterSpace:      -1
-URxvt.font:             xft:Iosevka\ Term:size=11
+URxvt.font:             xft:Iosevka Term:size=11
 urxvt.saveLines:        1048576
 
 !----------------------------------------------------
 ! URxvt Colors
 !----------------------------------------------------
-URxvt.depth:            32
-URxvt*background:       rgba:0000/0000/0200/8800
-*background:            #1D2426
-*foreground:            #8FA388
-
-! Alternate foreground
-*foreground:            #AB9C71
-
-*cursorColor:           #BE5E1E
-
-! Blacks
-*color0:                #39474A
-*color8:                #4C5F63
-! Reds
-*color1:                #986345
-*color9:                #B07350
-! Greens
-*color2:                #788249
-*color10:               #869151
-! Yellows
-*color3:                #9B6A46
-*color11:               #AF6B42
-! Blues
-*color4:                #3E5951
-*color12:               #567A6E
-! Magentas
-*color5:                #B9924A
-*color13:               #D69D55
-! Cyans
-*color6:                #5d796a
-*color14:               #668574
-! Whites
-*color7:                #977D5E
-*color15:               #AB9C71
+#include "/home/droo/.cache/wal/colors.Xresources"
 
 ! Clickable links
 URxvt.perl-ext-common:  default,matcher,keyboard-select
