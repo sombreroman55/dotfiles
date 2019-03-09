@@ -33,6 +33,6 @@ urxvt.saveLines:        1048576
 #include "/home/droo/.cache/wal/colors.Xresources"
 
 ! Clickable links
-URxvt.perl-ext-common:  default,matcher,keyboard-select
+URxvt.perl-ext-common:  default,matcher,keyboard-select,selection-to-clipboard
 URxvt.url-launcher:     /usr/bin/chromium
 URxvt.matcher.button:   1
