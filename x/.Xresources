@@ -23,8 +23,8 @@ Xft.rgba:               rgb
 !----------------------------------------------------
 URxvt.internalBorder:   0
 URxvt.scrollBar:        false
-URxvt.letterSpace:      -1
-URxvt.font:             xft:Iosevka Term:size=11
+URxvt.letterSpace:      0
+URxvt.font:             xft:xos4 Terminus:size=11
 urxvt.saveLines:        1048576
 
 !----------------------------------------------------

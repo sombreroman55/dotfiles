@@ -53,3 +53,6 @@ alias :q=' exit'
 alias :Q=' exit'
 alias :x=' exit'
 alias cd..='cd ..'
+
+## Start emacs in terminal by default
+# alias emacs='emacs -nw'

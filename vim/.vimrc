@@ -13,6 +13,7 @@ syntax on
 " }}}
 
 " UI Settings ------------------------------------------{{{
+set encoding=utf-8
 set number						    " show line numbers
 set relativenumber				    " show line numbers relative to cursor
 set showcmd                         " show command in bottom bar
@@ -34,7 +35,7 @@ set background=dark                 " background setting
 set tabpagemax=100                  " maximum open tabs
 let g:solarized_termcolors=256	    " termcolors for solarized 
 let g:tex_flavor='latex'            " prefer LaTeX as default tex file
-colorscheme gruvbox                 " flavor of the month
+colorscheme SerialExperimentsLain   " flavor of the month
 set colorcolumn=81                  " prefer 80 character line limit
 highlight ColorColumn ctermbg=5
 
@@ -44,24 +45,23 @@ set t_Co=256
 " }}}
 
 " Status Line -----------------------------------------------------{{{
-set encoding=utf-8
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
 
 " Unicode symbols
-" let g:airline_left_sep = '»'
-" let g:airline_left_sep = '▶'
-" let g:airline_right_sep = '«'
-" let g:airline_right_sep = '◀'
-" let g:airline_symbols.linenr = '␊'
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_symbols.linenr = '␊'
 " let g:airline_symbols.linenr = '␤'
-let g:airline_symbols.linenr = '¶'
-let g:airline_symbols.branch = '⎇'
+" let g:airline_symbols.linenr = '¶'
+" let g:airline_symbols.branch = '⎇'
 let g:airline_symbols.paste = 'ρ'
-let g:airline_symbols.paste = 'Þ'
-let g:airline_symbols.paste = '∥'
+" let g:airline_symbols.paste = 'Þ'
+" let g:airline_symbols.paste = '∥'
 let g:airline_symbols.whitespace = 'Ξ'
 " }}}
 

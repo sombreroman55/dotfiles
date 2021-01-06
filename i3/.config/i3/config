@@ -155,6 +155,18 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+bindsym $mod+Shift+x exec i3lock --color 47523
+
+# Key bindings
+bindsym Print exec scrot
+bindsym XF86AudioMute exec "amixer -q set Master toggle"
+bindsym XF86AudioLowerVolume exec "amixer -q set Master 1%- unmute"
+bindsym XF86AudioRaiseVolume exec "amixer -q set Master 1%+ unmute"
+bindsym XF86AudioMicMute exec "amixer set Capture toggle"
+bindsym XF86MonBrightnessDown exec --no-startup-id "xbacklight -dec 5"
+bindsym XF86MonBrightnessUp exec --no-startup-id "xbacklight -inc 5"
+bindsym Shift+XF86MonBrightnessDown exec --no-startup-id "brightnessctl --device='tpacpi::kbd_backlight' set 1-"
+bindsym Shift+XF86MonBrightnessUp exec --no-startup-id "brightnessctl --device='tpacpi::kbd_backlight' set 1+"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -162,11 +174,11 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 
-exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
+# exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Gap settings
 # We must remove title bars for i3 gaps
-for_window [class="^.*"] border pixel 0
-gaps inner 10
-gaps outer 3
+for_window [class="^.*"] border pixel 1
+gaps inner 5
+gaps outer 2
